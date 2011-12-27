@@ -1,0 +1,22 @@
+Source: python-vsgui
+Section: python
+Priority: optional
+Maintainer: Hsin-Yi Chen (hychen) <ossug.hychen@gmail.com>
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: http://pypi.python.org/pypi/vsgui
+Vcs-Git: git://github.com/hychen/pkg-vsgui.git
+X-Python-Version: >= 2.5
+
+Package: python-vsgui
+Architecture: all
+Depends: ${python:Depends}, python-ucltip (>= 0.6-3)
+Recommends: zenity (>=3.2.0-1)
+Description: Very Simple Graphical library for Python shell script
+ python-vsgui proides a simple functions to comuunicate with `zenity` which
+ is a program that will display GTK+ dialogs, and return (either in the
+ return code, or on standard output) the users input and convert to Python
+ data type if need.
+ .
+ This allows you to present information, and ask for information from
+ the user, from all of Python shell scripts.

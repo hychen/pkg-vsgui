@@ -1,0 +1,5 @@
+python-vsgui (0.3.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #652528)
+
+ -- Hsin-Yi Chen (hychen) <ossug.hychen@gmail.com>  Tue, 27 Dec 2011 20:42:07 +0800
